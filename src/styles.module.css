@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  margin-bottom: 10px;
+  width: 150px;
+}
+.form__table {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  text-transform: uppercase;
+}
+.form__label {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  text-transform: uppercase;
+}
+.form__button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: 0;
+  margin-bottom: 10px;
+}
+.form__button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles.module.css.map */

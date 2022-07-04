@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    margin-bottom: 10px;
+    width: 150px;
+  }
+
+  &__table {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 0;
+    margin-bottom: 10px;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+}
