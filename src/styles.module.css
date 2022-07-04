@@ -6,9 +6,12 @@
   margin-bottom: 10px;
   width: 150px;
 }
-.form__table {
+.form__title {
   font-family: "Lucida Sans Unicode", sans-serif;
   text-transform: uppercase;
+}
+.form__table {
+  font-family: "Lucida Sans Unicode", sans-serif;
 }
 .form__label {
   font-family: "Lucida Sans Unicode", sans-serif;

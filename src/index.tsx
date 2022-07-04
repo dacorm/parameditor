@@ -130,12 +130,12 @@ class Model extends Component<{ paramsValues: arr[] }, {}> {
     render() {
         return (
             <div className={styles.form__table}>
-                <h5>Model is</h5>
+                <h5 className={styles.form__title}>Model is</h5>
                 <table>
                     <thead>
                     <tr>
-                        <th scope="col">id</th>
-                        <th scope="col">paramValue</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">PARAMVALUE</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -176,9 +176,9 @@ class ParamEditor extends Component<{ render: (arg: any) => void }, ParamEditorS
     render() {
         return (
             // @ts-ignore
-            <div className="container">
+            <div>
                 {/* @ts-ignore */}
-                <Param addParam={this.addParam} addParamValues={this.addParamValues} />
+                <Param addParam={this.addParam} addParamValues={this.addParamValues}/>
                 <button className={styles.form__button} onClick={this.handleModel}>Get Model</button>
                 {this.state.getModel ? this.props.render(this.state.paramValue) : null}
             </div>
